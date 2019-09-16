@@ -1,0 +1,143 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  width: 500px;
+  height: 400px;
+  margin: 150px auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main p {
+  font-size: 12px;
+}
+
+#search_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.bar {
+  width: 100%;
+  border: 0.5px gainsboro solid;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px 0;
+  padding: 7px;
+}
+
+#search_icon {
+  margin: 5px;
+}
+
+#search_bar{
+  padding: 5px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+input::before {
+  content: "Test";
+  z-index: 1000;
+}
+
+.text_link:hover {
+  text-decoration: underline;
+}
+
+#language_link {
+  color: darkblue;
+}
+
+form button {
+  padding: 10px 15px;
+  margin: 0px 5px;
+  background-color: #f4f4f4;
+  border: 1px rgba(0,0,0,0) solid;
+  border-radius: 4px;
+}
+
+form button:hover {
+  color: black;
+  border-color: #c6c6c6;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px auto;
+  font-size: 12px;
+}
+
+nav a {
+  margin: 10px 10px;
+}
+
+nav button {
+  background-color: #4683ea;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 500;
+  margin-right: 45px;
+  margin-left: 5px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #a67979;
+  font-size: 14px;
+}
+
+footer .row {
+  border: 1px #e4e4e4 solid;
+}
+
+footer .first {
+  line-height: 40px;
+  padding-left: 35px;
+}
+
+footer .left {
+  float: left;
+  line-height: 40px;
+  vertical-align: middle;
+  padding-left: 35px;
+}
+
+footer .right {
+  float: right;
+  line-height: 40px;
+  padding-right: 35px;
+}
+
+footer .row a {
+  padding: 0px 15px 0px 0px;
+  color: #a67979;
+  font-size: 12px;
+}

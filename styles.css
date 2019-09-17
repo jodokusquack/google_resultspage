@@ -25,18 +25,18 @@ header {
   margin: 10px 0px;
 }
 
-header #header-search {
+header #top-nav {
   width: 100%;
   position: relative;
   padding: 5px 5px 5px 5px;
 }
 
-header div .header-element{
+header #top-nav .header-element{
   display: inline-block;
   vertical-align: middle;
 }
 
-header div #logo{
+header #top-nav #logo{
   padding: 15px;
 }
 
@@ -45,7 +45,7 @@ header div #logo{
   padding-left: 20px;
 }
 
-.bar {
+#top-nav .bar {
   width: 100%;
   border: 0.5px gainsboro solid;
   border-radius: 50px;
@@ -63,15 +63,43 @@ header div #logo{
   margin-left: 20px;
 }
 
-header div #search_icon{
+header #top-nav #search_icon{
   padding: 10px;
 }
 
-header div .right {
+header #top-nav .right {
   float: right;
+  position: relative;
   margin-right: 25px;
+  padding: 10px 0;
 }
 
+header #top-nav .right img{
+  padding: 0px 10px;
+}
+
+header #top-nav .right button{
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 9px 23px;
+}
+
+header #bottom-nav{
+  margin-left: 157px;
+  width: 640px;
+}
+
+header #bottom-nav a{
+  font-size: 12px;
+  display: inline-block;
+  padding: 16px 12px 12px 10px;
+}
+
+header #bottom-nav .right{
+  float: right;
+}
 
 
 
@@ -94,28 +122,6 @@ form button:hover {
   border-color: #c6c6c6;
 }
 
-nav {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin: 10px auto;
-  font-size: 12px;
-}
-
-nav a {
-  margin: 10px 10px;
-}
-
-nav button {
-  background-color: #4683ea;
-  border: 1px solid #4285f4;
-  border-radius: 2px;
-  padding: 5px 10px;
-  color: white;
-  font-weight: 500;
-  margin-right: 45px;
-  margin-left: 5px;
-}
 
 footer {
   position: absolute;

@@ -2,20 +2,6 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-main {
-  width: 500px;
-  height: 400px;
-  margin: 150px auto auto auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-main p {
-  font-size: 12px;
-}
-
 header {
   margin: 10px 0px;
   border-bottom: 1px rgb(235, 235, 235) solid;
@@ -116,19 +102,19 @@ header #bottom-nav .right{
   border-bottom: 3px rgb(26, 115, 232) solid;
 }
 
-
-form button {
-  padding: 10px 15px;
-  margin: 0px 5px;
-  background-color: #f4f4f4;
-  border: 1px rgba(0,0,0,0) solid;
-  border-radius: 4px;
+/* Main Element */
+main {
+  width: 640px;
+  margin-left: 125px;
 }
 
-form button:hover {
-  color: black;
-  border-color: #c6c6c6;
-}
+
+
+
+
+
+
+
 
 
 footer {

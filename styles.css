@@ -2,11 +2,6 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
 main {
   width: 500px;
   height: 400px;
@@ -23,6 +18,7 @@ main p {
 
 header {
   margin: 10px 0px;
+  border-bottom: 1px rgb(235, 235, 235) solid;
 }
 
 header #top-nav {
@@ -97,15 +93,27 @@ header #bottom-nav a{
   padding: 16px 12px 12px 10px;
 }
 
+header #bottom-nav a *{
+  display: inline-block;
+  vertical-align: middle;
+}
+
 header #bottom-nav .right{
   float: right;
 }
 
+.nav_link{
+  color: rgb(95, 99, 104);
+  text-decoration: none;
+}
 
+.nav_link:hover {
+  color: rgb(26, 115, 232);
+}
 
-
-.text_link:hover {
-  text-decoration: underline;
+.nav_link_active{
+  color: rgb(26, 115, 232);
+  border-bottom: 3px rgb(26, 115, 232) solid;
 }
 
 

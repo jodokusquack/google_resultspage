@@ -2,6 +2,7 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
 header {
   margin: 10px 0px;
   border-bottom: 1px rgb(235, 235, 235) solid;
@@ -21,7 +22,7 @@ header #top-nav .header-element{
 header #top-nav #logo{
   padding: 15px;
 }
-
+/* Header > Search Bar */
 #search_form {
   width:640px;
   padding-left: 20px;
@@ -68,6 +69,7 @@ header #top-nav .right button{
   padding: 9px 23px;
 }
 
+/* Header > Bottom Half */
 header #bottom-nav{
   margin-left: 157px;
   width: 640px;
@@ -88,6 +90,7 @@ header #bottom-nav .right{
   float: right;
 }
 
+/* Header > Bottom Half > Nav Links */
 .nav_link{
   color: rgb(95, 99, 104);
   text-decoration: none;
@@ -105,7 +108,79 @@ header #bottom-nav .right{
 /* Main Element */
 main {
   width: 640px;
-  margin-left: 125px;
+  margin-left: 167px;
+}
+
+main .amount{
+  font-size: 14px;
+  color: gray;
+  margin: 15px 0px;
+}
+
+/* Main > Individual Result */
+main .result{
+  margin: 25px 0px;
+}
+
+main .result .title{
+  text-decoration: none;
+}
+
+
+main .result .title h2{
+  font-size: 20px;
+  display: inline-block;
+  color: rgb(26, 13, 171);
+  padding-bottom: 5px;
+}
+
+main .result .title h2:hover{
+  text-decoration: underline;
+}
+
+main .result .title h3{
+  color: rgb(0, 102, 33);
+  padding-bottom: 5px;
+}
+
+main .result .title h3 .ad{
+  font-size: 11px;
+  padding: 0 2px;
+  border: 1px rgb(0, 102, 33) solid;
+  border-radius: 2px;
+}
+
+main .result .title h3 svg{
+  margin-bottom: -6px;
+  margin-left: -6px;
+}
+
+main .result p{
+  font-size: 14px;
+  color: gray;
+  line-height: 22px;
+}
+
+main .result .sub-result{
+  display: inline-block;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+main .result .sub-result a{
+  text-decoration: none;
+}
+
+main .result .sub-result a:hover{
+  text-decoration: underline;
+}
+
+main .result .sub-result h2{
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(26, 13, 171);
+  padding-bottom: 5px;
 }
 
 
@@ -117,9 +192,10 @@ main {
 
 
 
+
+
+
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background-color: #f2f2f2;
   color: #a67979;

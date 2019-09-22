@@ -183,9 +183,57 @@ main .result .sub-result h2{
   padding-bottom: 5px;
 }
 
+/* Main > Instruction Insert */
+main .instruction-insert{
+  border: 1px gray solid;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px 10px;
+}
+
+main .instruction-insert img{
+  float: right;
+}
+
+main .instruction-insert h4{
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+main .instruction-insert ol{
+  font-size: 16px;
+  line-height: 22px;
+}
+
+main .instruction-insert ol:last-child::before{
+  content: " ";
+}
+
+main .instruction-insert ol:last-child{
+  color: darkgrey;
+  font-size: 14px;
+}
+
+main .instruction-insert .title{
+  text-decoration: none;
+}
 
 
+main .instruction-insert .title h2{
+  font-size: 20px;
+  display: inline-block;
+  color: rgb(26, 13, 171);
+  padding-bottom: 5px;
+}
 
+main .instruction-insert .title h2:hover{
+  text-decoration: underline;
+}
+
+main .instruction-insert .title h3{
+  color: rgb(0, 102, 33);
+}
 
 
 
